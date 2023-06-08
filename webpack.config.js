@@ -8,7 +8,7 @@ Encore
     .setOutputPath('public/build/')
     .setPublicPath('/build')
 
-    .addEntry('scripts', './assets/app.js')
+    .addEntry('scripts', './assets/scripts/app.js')
     .addStyleEntry('styles', './assets/styles/app.scss')
 
     .enableStimulusBridge('./assets/controllers.json')
